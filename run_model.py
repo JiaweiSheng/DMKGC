@@ -203,7 +203,7 @@ def main(args):
         all_langs = ['el', 'en', 'es', 'fr', 'ja']
     elif args.dataset == 'depkg':
         all_langs = ['de', 'es', 'fr', 'it', 'jp', 'uk']
-    elif args.dataset == 'dwy-L':
+    elif args.dataset == 'dwy':
         all_langs = ['db', 'wk', 'yg']
     else:
         raise ValueError(f'Unsupported dataset: {args.dataset}')

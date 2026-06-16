@@ -31,7 +31,7 @@ We evaluate on three benchmarks:
 |-----------|------------------|---------|
 | DBP-5L | `dbp5l` | el, en, es, fr, ja |
 | E-PKG | `depkg` | de, es, fr, it, jp, uk |
-| DWY | `dwy-L` | db, wk, yg |
+| DWY | `dwy` | db, wk, yg |
 
 Data should be placed under `dataset<name>/` (e.g., `datasetdbp5l/`), which is resolved from `--data_path dataset` and `--dataset <name>`.
 
@@ -65,7 +65,7 @@ CUDA_VISIBLE_DEVICES=0 python run_model.py --dataset depkg --round 50 --epoch_ea
 **DWY**
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python run_model.py --dataset dwy-L --v exp_dwy-L
+CUDA_VISIBLE_DEVICES=0 python run_model.py --dataset dwy --v exp_dwy
 ```
 
 Logs and the best checkpoint are saved under `<dataset>/trained_model/`.
