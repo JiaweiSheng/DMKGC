@@ -84,7 +84,7 @@ def parse_args(args=None):
     parser.add_argument('--w_reg', default=0.001, type=float, help='cross-domain regularization loss weight')
 
     # Training
-    parser.add_argument('--epoch_each', default=1, type=int, help='epochs per round')
+    parser.add_argument('--epoch_each', default=2, type=int, help='epochs per round')
     parser.add_argument('--round', default=30, type=int, help='training rounds')
     parser.add_argument('--lr', '--learning_rate', default=0.001, type=float, help='learning rate')
     parser.add_argument('--batch_size', default=300, type=int, help='training batch size')

@@ -59,7 +59,7 @@ CUDA_VISIBLE_DEVICES=0 python run_model.py --dataset dbp5l --v exp_dbp5l
 **E-PKG**
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python run_model.py --dataset depkg --round 50 --epoch_each 2 --s_strength 1 --v exp_depkg
+CUDA_VISIBLE_DEVICES=0 python run_model.py --dataset depkg --round 50 --s_strength 1 --v exp_depkg
 ```
 
 **DWY**
